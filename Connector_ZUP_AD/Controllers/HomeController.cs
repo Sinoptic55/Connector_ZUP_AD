@@ -27,6 +27,13 @@ namespace Connector_ZUP_AD.Controllers
             return View();
         }
 
+        public IActionResult AddUser()
+        {
+            ViewData["Message"] = "Страница добавления сотрудника";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
